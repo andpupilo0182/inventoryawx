@@ -1,0 +1,15 @@
+[local]
+127.0.0.1
+
+[dockers]
+192.168.50.10 server='server1.png'
+192.168.50.20 server='server2.png'
+
+[servera]
+192.168.50.10
+
+[serverb]
+192.168.50.20
+
+[balancer]
+192.168.50.30
